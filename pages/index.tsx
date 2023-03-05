@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import mainImage from '@/assets/images/mainimage.gif'
+import mainImage from '@/assets/images/mainimage.png'
 import { Form, Button, Spinner } from 'react-bootstrap'
 import { FormEvent, useState } from 'react'
 
