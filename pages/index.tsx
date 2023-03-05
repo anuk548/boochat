@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import mainImage from '@/assets/images/mainimage.png'
+import mainImage1 from '../assets/images/mainImage.png'
 import { Form, Button, Spinner } from 'react-bootstrap'
 import { FormEvent, useState } from 'react'
 
@@ -49,7 +49,7 @@ export default function Home() {
         <div>Enter a topic and the Boo will generate a super cringy motivational quote</div>
         <div className={styles.mainImageContainer}>
           <Image
-            src={mainImage}
+            src={mainImage1}
             fill
             alt='boo'
             priority
