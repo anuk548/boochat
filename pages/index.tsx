@@ -49,9 +49,9 @@ export default function Home() {
         <div>Enter a topic and the Boo will generate a super cringy motivational quote</div>
         <div className={styles.mainImageContainer}>
           <Image
-            src="/mainImage"
+            src={mainImage}
             fill
-            alt='A picture of a woman holding both her hands in front of her face'
+            alt='boo'
             priority
             className={styles.mainImage}
           />
